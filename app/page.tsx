@@ -19,7 +19,7 @@ export default function Home() {
 
       <span className={title()}>Live Events with MOCInk and Mr Klink</span>
       <div className="ml-4">
-        <Link isExternal aria-label="Instagram" href="https://www.instagram.com/mrklink13/">
+        <Link isExternal aria-label="Instagram" href="https://www.facebook.com/theshopdowntownhattiesburg">
           <div className="flex flex-row items-center gap-2">
             <FacebookIcon size={32} className="text-default-500" />
             <span className="text-xl"> MOCInk </span>
