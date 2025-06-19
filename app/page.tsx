@@ -187,7 +187,7 @@ export default function Home() {
             className="object-cover"
             radius="lg"
             shadow="sm"
-            src="/images/3skrrt.png"
+            src="/images/skrrtcolors.png"
             width="320"
           />
         </div>
