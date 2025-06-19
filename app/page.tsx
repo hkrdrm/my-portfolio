@@ -183,6 +183,17 @@ export default function Home() {
 
         <div className="rounded">
           <Image
+            alt="skrrt"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/3skrrt.png"
+            width="320"
+          />
+        </div>
+
+        <div className="rounded">
+          <Image
             alt="badfish on woodgrain"
             className="object-cover"
             radius="lg"
