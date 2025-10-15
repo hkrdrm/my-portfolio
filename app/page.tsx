@@ -17,115 +17,126 @@ export default function Home() {
         <h3 className="text-xl">tspiers84@gmail.com</h3>
       </div>
 
-      <span className={title()}>Live Events with MOCInk and Mr Klink</span>
-      <div className="ml-4">
-        <Link isExternal aria-label="Instagram" href="https://www.facebook.com/theshopdowntownhattiesburg">
-          <div className="flex flex-row items-center gap-2">
-            <FacebookIcon size={32} className="text-default-500" />
-            <span className="text-xl"> MOCInk </span>
-          </div>
-        </Link>
-        <br />
-
-        <Link isExternal aria-label="MOCInk" href="https://www.instagram.com/mrklink13/">
-          <div className="flex flex-row items-center gap-2">
-            <InstagramIcon size={32} className="text-default-500" />
-            <span className="text-xl"> @mrklink13 </span>
-          </div>
-        </Link>
-      </div>
-      <div className="flex flex-row flex-wrap items-center justify-around gap-24 py-8 md:py-10">
-        <Card className="w-320" isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
+      <span className={title()}>Web Design</span>
+      <div className="flex flex-row items-center justify-around gap-4 py-8 md:py-10">
+        <div>
+          <a href="https://msbjj.org" target="_blank" rel="noopener noreferrer">
             <Image
-              alt="Spiral Light"
+              alt="Epic"
               className="object-cover"
               radius="lg"
               shadow="sm"
-              src="/images/spiral-light-tshirt.jpg"
+              src="/images/epic.png"
               width="320"
             />
-          </CardBody>
-          <CardFooter className="flex flex-col text-small justify-between">
-            <span> Spiral Light </span>
-            <span> Keg and Barrel </span>
-          </CardFooter>
-        </Card>
+            <span className="text-2xl">Epic Martial Arts</span>
+          </a>
+        </div>
 
-        <Card className="w-320" isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
+        <div>
+          <a href="https://www.franklintelephone.com/" target="_blank" rel="noopener noreferrer">
             <Image
-              alt="Cardboard Cowboy"
               className="object-cover"
               radius="lg"
               shadow="sm"
-              src="/images/cardboardcowboy.jpg"
+              src="/images/franklin.png"
               width="320"
             />
-          </CardBody>
-          <CardFooter className="flex flex-col text-small justify-between">
-            <span> Cardboard Cowboy </span>
-            <span> Tuxachanie Creek  </span>
-          </CardFooter>
-        </Card>
-
-        <Card className="w-320" isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
-            <Image
-              alt="Cardboard Cowboy"
-              className="object-cover"
-              radius="lg"
-              shadow="sm"
-              src="/images/sc-better-half2.jpg"
-              width="320"
-            />
-          </CardBody>
-          <CardFooter className="flex flex-col text-small justify-between">
-            <span> Schott Chism and the Better Half </span>
-            <span> Tuxachanie Creek  </span>
-          </CardFooter>
-        </Card>
-
-        <Card className="w-320" isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
-            <Image
-              alt="Billy Strings"
-              className="object-cover"
-              radius="lg"
-              shadow="sm"
-              src="/images/bmfs2.jpg"
-              width="320"
-            />
-          </CardBody>
-          <CardFooter className="flex flex-col text-small justify-between">
-            <span> Billy Strings </span>
-            <span> UNO Lakefront Areana </span>
-            <span> NYE 2024 </span>
-          </CardFooter>
-        </Card>
-
-        <Card className="w-320" isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
-            <Image
-              alt="Red and the Revelers"
-              className="object-cover"
-              radius="lg"
-              shadow="sm"
-              src="/images/rr3.jpg"
-              width="320"
-            />
-          </CardBody>
-          <CardFooter className="flex flex-col text-small justify-between">
-            <div>
-              Red and the Revelers <br />
-              Keg and Barrel
-            </div>
-          </CardFooter>
-        </Card>
+            <span className="text-2xl"> Franklin Telephone Company </span>
+          </a>
+        </div>
       </div>
 
       <span className={title()}>Art and T-Shirts</span>
       <div className="flex flex-row flex-wrap items-center justify-around gap-4 py-8 md:py-10">
+        <div>
+          <Image
+            alt="Stealie T-Shirt"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/stealie_tshirt.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Stealie Prints"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/stealie_prints.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Stealie Screen"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/stealie_screen.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Multi Prints"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/multi_prints.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Strawhat T-Shirt"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/strawhat_tshirt.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Limited Time Small Batch"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/limited_time_small_batch.png"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Poziscienze Alt T-Shirt"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/poziscienze_alt.jpg"
+            width="320"
+          />
+        </div>
+
+        <div>
+          <Image
+            alt="Poziscienze T-Shirt"
+            className="object-cover"
+            radius="lg"
+            shadow="sm"
+            src="/images/poziscienze_shirts.jpg"
+            width="320"
+          />
+        </div>
+
         <div>
           <Image
             alt="wanted poster smiling on a cloudy day"
@@ -259,35 +270,113 @@ export default function Home() {
         </div>
       </div>
 
-      <span className={title()}>Web Design</span>
-      <div className="flex flex-row items-center justify-around gap-4 py-8 md:py-10">
-        <div>
-          <a href="https://msbjj.org" target="_blank" rel="noopener noreferrer">
-            <Image
-              alt="Epic"
-              className="object-cover"
-              radius="lg"
-              shadow="sm"
-              src="/images/epic.png"
-              width="320"
-            />
-            <span className="text-2xl">Epic Martial Arts</span>
-          </a>
-        </div>
+      <span className={title()}>Live Events with MOCInk and Mr Klink</span>
+      <div className="ml-4">
+        <Link isExternal aria-label="Instagram" href="https://www.facebook.com/theshopdowntownhattiesburg">
+          <div className="flex flex-row items-center gap-2">
+            <FacebookIcon size={32} className="text-default-500" />
+            <span className="text-xl"> MOCInk </span>
+          </div>
+        </Link>
+        <br />
 
-        <div>
-          <a href="https://www.franklintelephone.com/" target="_blank" rel="noopener noreferrer">
+        <Link isExternal aria-label="MOCInk" href="https://www.instagram.com/mrklink13/">
+          <div className="flex flex-row items-center gap-2">
+            <InstagramIcon size={32} className="text-default-500" />
+            <span className="text-xl"> @mrklink13 </span>
+          </div>
+        </Link>
+      </div>
+      <div className="flex flex-row flex-wrap items-center justify-around gap-24 py-8 md:py-10">
+        <Card className="w-320" isPressable shadow="sm">
+          <CardBody className="overflow-visible p-0">
             <Image
+              alt="Spiral Light"
               className="object-cover"
               radius="lg"
               shadow="sm"
-              src="/images/franklin.png"
+              src="/images/spiral-light-tshirt.jpg"
               width="320"
             />
-            <span className="text-2xl"> Franklin Telephone Company </span>
-          </a>
-        </div>
+          </CardBody>
+          <CardFooter className="flex flex-col text-small justify-between">
+            <span> Spiral Light </span>
+            <span> Keg and Barrel </span>
+          </CardFooter>
+        </Card>
+
+        <Card className="w-320" isPressable shadow="sm">
+          <CardBody className="overflow-visible p-0">
+            <Image
+              alt="Cardboard Cowboy"
+              className="object-cover"
+              radius="lg"
+              shadow="sm"
+              src="/images/cardboardcowboy.jpg"
+              width="320"
+            />
+          </CardBody>
+          <CardFooter className="flex flex-col text-small justify-between">
+            <span> Cardboard Cowboy </span>
+            <span> Tuxachanie Creek  </span>
+          </CardFooter>
+        </Card>
+
+        <Card className="w-320" isPressable shadow="sm">
+          <CardBody className="overflow-visible p-0">
+            <Image
+              alt="Cardboard Cowboy"
+              className="object-cover"
+              radius="lg"
+              shadow="sm"
+              src="/images/sc-better-half2.jpg"
+              width="320"
+            />
+          </CardBody>
+          <CardFooter className="flex flex-col text-small justify-between">
+            <span> Schott Chism and the Better Half </span>
+            <span> Tuxachanie Creek  </span>
+          </CardFooter>
+        </Card>
+
+        <Card className="w-320" isPressable shadow="sm">
+          <CardBody className="overflow-visible p-0">
+            <Image
+              alt="Billy Strings"
+              className="object-cover"
+              radius="lg"
+              shadow="sm"
+              src="/images/bmfs2.jpg"
+              width="320"
+            />
+          </CardBody>
+          <CardFooter className="flex flex-col text-small justify-between">
+            <span> Billy Strings </span>
+            <span> UNO Lakefront Areana </span>
+            <span> NYE 2024 </span>
+          </CardFooter>
+        </Card>
+
+        <Card className="w-320" isPressable shadow="sm">
+          <CardBody className="overflow-visible p-0">
+            <Image
+              alt="Red and the Revelers"
+              className="object-cover"
+              radius="lg"
+              shadow="sm"
+              src="/images/rr3.jpg"
+              width="320"
+            />
+          </CardBody>
+          <CardFooter className="flex flex-col text-small justify-between">
+            <div>
+              Red and the Revelers <br />
+              Keg and Barrel
+            </div>
+          </CardFooter>
+        </Card>
       </div>
+
 
     </section>
   );
