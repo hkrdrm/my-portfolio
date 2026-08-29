@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <span className={title()}>Web Design</span>
-      <div className="flex flex-row items-center justify-around gap-4 py-8 md:py-10">
+      <div className="flex flex-row flex-wrap items-center justify-around gap-4 py-8 md:py-10">
         <div>
           <a href="https://msbjj.org" target="_blank" rel="noopener noreferrer">
             <Image
@@ -43,6 +43,20 @@ export default function Home() {
               width="320"
             />
             <span className="text-2xl"> Franklin Telephone Company </span>
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.americanstripes.llc" target="_blank" rel="noopener noreferrer">
+            <Image
+              alt="American Stripes"
+              className="object-cover"
+              radius="lg"
+              shadow="sm"
+              src="/images/americanstripes.png"
+              width="320"
+            />
+            <span className="text-2xl">American Stripes</span>
           </a>
         </div>
       </div>
