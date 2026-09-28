@@ -1,13 +1,12 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
-// import { Navbar } from "@/components/navbar";
+import { SiteHeader } from "@/components/site-header";
 
 export const metadata: Metadata = {
   title: {
@@ -37,17 +36,16 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen text-foreground bg-background font-sans antialiased",
+          "min-h-screen bg-ink text-cream font-sans antialiased",
           fontSans.variable,
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+          <div className="relative flex min-h-screen flex-col">
+            <SiteHeader />
+            <main className="w-full mx-auto max-w-screen-2xl px-6 pb-16 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
-            </footer>
           </div>
         </Providers>
       </body>
